@@ -1,0 +1,913 @@
+@font-face {
+  font-family: 'gilroy';
+  src: url('./font/Gilroy.otf');
+}
+@font-face {
+  font-family: 'Pacifico';
+  src: url('./font/Pacifico.otf');
+}
+
+.landing {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../src/img/Group_605 (1).png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+nav {
+  font-size: 1.2rem;
+  color: #141414 !important;
+  font-weight: bold;
+  font-family: 'gilroy' !important;
+}
+.logo {
+  /* width: 149px; */
+  /* display: none; */
+  height: 54.5px;
+  font-family: 'Pacifico' !important;
+  font-size: 30px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #10d6de !important;
+}
+
+.Ai {
+  display: none;
+}
+.motto,
+.productHeader,
+.infoHeader {
+  font-family: 'Gilroy' !important;
+  font-size: 30px;
+  font-weight: bolder;
+  height: 28.5px;
+  text-align: center;
+  color: #141414;
+}
+
+.saying,
+.productText,
+.infoText {
+  font-family: 'Gilroy' !important;
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #141414;
+}
+.productList {
+  margin-top: 100px;
+  display: flex !important;
+  justify-content: space-evenly !important;
+}
+.productCard {
+  /* width: 199px; */
+  width: 300px;
+  height: 320px;
+  border: solid 0.5px #707070ab;
+  border-radius: 20px;
+}
+
+.contentHeader {
+  margin: 10px;
+
+  font-family: 'Gilroy' !important;
+  font-size: 20px;
+  font-weight: bolder;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  color: #141414;
+}
+
+.startingFrom {
+  height: 13.5px;
+  font-family: 'Gilroy' !important;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  color: #141414;
+}
+
+.month {
+  height: 25.5px;
+  font-family: 'Gilroy' !important;
+  font-size: 30px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: #141414;
+}
+
+.quote {
+  margin-top: 50px;
+
+  border-radius: 10px;
+  background-color: #10de9f;
+  color: #ffffff;
+  font-family: 'Gilroy' !important;
+  font-size: 15px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+}
+
+.info {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.infoTitle {
+  /* width: 155px; */
+
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  color: #141414;
+}
+.infoBody {
+  font-family: 'Gilroy';
+  font-size: 20px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+  color: #141414;
+}
+
+.infoBtn {
+  margin-left: 60px;
+
+  border-radius: 10px;
+  background-color: #10de9f;
+  font-family: 'Gilroy';
+  font-size: 15px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.insure h5 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.insure h5 {
+  margin-bottom: 20px;
+}
+.insureBtn,
+.insureContactBtn,
+.insureUpdateBtn {
+  margin-left: 60px;
+  /* height: 12.5px; */
+  border-radius: 10px;
+  background-color: #10de9f;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+}
+
+.insureContactBtn,
+.insureUpdateBtn {
+  /* margin-left: 60px; */
+  /* height: 12.5px; */
+  border-radius: 10px;
+  background-color: #10de9f;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+}
+/* .insureContactBtn {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 60px;
+ 
+  border-radius: 10px;
+  background-color: #10de9f;
+
+  font-size: 15px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+} */
+.insureImages {
+  width: 230px;
+}
+
+.imagesColumn {
+  float: right;
+}
+
+.claims {
+  width: 100%;
+  height: 80vh;
+  background-image: url('../src/img/Group_608 (1).png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.claimBtnA {
+  display: block;
+}
+.claimsBtn {
+  color: #ffffff;
+  /* padding-left: 30px;
+  padding-right: 30px; */
+  font-weight: bolder;
+
+  text-align: center;
+  border-radius: 10px;
+  background-color: #10de9f;
+}
+
+.claimBtnB {
+  display: none;
+}
+
+.claimStats {
+  font-size: 75px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: center;
+  color: #141414;
+}
+
+.claimP {
+  font-size: 20px;
+}
+.aboutUs p {
+  font-size: 19px;
+}
+.aboutUsImage {
+  width: 70%;
+  position: relative;
+  left: 15%;
+}
+
+.aboutUsBtn {
+  position: relative;
+  left: 44%;
+  border-radius: 10px;
+  background-color: #10de9f;
+  font-size: 20px;
+  font-weight: bold;
+
+  text-align: center;
+  color: #ffffff;
+}
+.dashboard {
+  font-size: 2rem;
+}
+
+.dashboard h1 {
+  width: 92px;
+  height: 28.5px;
+  font-size: 30px;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+  font-weight: bolder;
+}
+
+.profile h2 {
+  font-weight: 900;
+  font-size: 23px;
+}
+.profile h5 {
+  font-size: 16px;
+}
+.profileLeft h5 {
+  margin-top: 20px;
+  font-weight: 900;
+}
+.profile p {
+  font-weight: 200;
+  font-size: 16px !important;
+}
+
+.profileRight h5 {
+  margin-top: 20px;
+  font-weight: 900;
+}
+
+.profileRight {
+  margin-left: 100px;
+  margin-top: 8px;
+}
+.dashboard p {
+  /* font-weight: bold; */
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.name {
+  height: 15px;
+
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.43;
+  letter-spacing: normal;
+  text-align: left;
+}
+.job,
+.email,
+.date {
+  height: 9.5px;
+
+  font-size: 10px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+}
+.depen {
+  margin-top: 3px;
+}
+
+.address,
+.resSta {
+  font-size: 15px;
+  font-weight: 300;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.4;
+  letter-spacing: normal;
+  text-align: left;
+}
+.editBtn {
+  width: 158px;
+  height: 36px;
+  border-radius: 10px;
+  background-color: #10de9f;
+  font-size: 15px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+.table {
+  font-size: large;
+}
+.mobileTable {
+  display: none;
+}
+.flipCard {
+  width: 300px;
+  height: 350px;
+  perspective: 1000px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+.flipCard p {
+  font-size: 15px;
+}
+.flipCardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-radius: 30px;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.flipCard:hover .flipCardInner {
+  transform: rotateY(180deg);
+}
+
+.flipCardFront,
+.flipCardBack {
+  position: absolute;
+
+  color: #ffffff;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flipCardFront {
+  background-color: #10d6de;
+  border-radius: 30px;
+}
+.flipCardBack {
+  background-color: #10d6de;
+  border-radius: 30px;
+  transform: rotateY(180deg);
+}
+.cardPrice {
+  margin-top: 40%;
+  font-size: 40px;
+  line-height: 1.42;
+  color: #ffffff;
+}
+.expiresOn {
+  font-weight: bold;
+  font-size: 20px;
+  /* color: #ff8b8b; */
+}
+.largeScreenCard {
+  display: block;
+}
+.mobileCard {
+  display: none;
+}
+.editDashboard {
+  margin-bottom: 100px;
+  font-size: 20px !important;
+}
+
+.inputTwo input {
+  /* width: 337px; */
+  height: 49px;
+  border-radius: 10px;
+  border: solid 0.5px #141414;
+}
+.selectFieldGroup {
+  /* width: 337px; */
+  height: 49px;
+  border-radius: 10px;
+  border: solid 0.5px #141414;
+}
+/* input[type='radio'] {
+  visibility: hidden;
+} */
+
+.custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #10d6de;
+  background-color: #10d6de;
+}
+
+.editProfileBtn {
+  color: #ffffff;
+  width: 250px;
+  height: 49px;
+  border-radius: 10px;
+  background-color: #10de9f;
+}
+.signIn {
+  height: 70vh;
+}
+.signUp {
+  height: 80vh;
+}
+
+.signIn h1,
+.signUp h1 {
+  font-size: 30px;
+  font-weight: bolder;
+
+  /* line-height: 1.42;
+  letter-spacing: normal; */
+
+  color: #141414;
+}
+.authBtn {
+  width: 250px;
+  height: 49px;
+  color: #10de9f;
+  border-radius: 10px;
+  border: 3px solid #10de9f;
+}
+.peach {
+  width: 100px;
+}
+.authInput input {
+  /* width: 337px; */
+  height: 49px;
+  border-radius: 10px;
+  border: solid 0.5px #141414;
+}
+
+.fakeLabel {
+  display: none;
+}
+
+.productListCard {
+  /* width: 199px; */
+  height: 300px;
+  border: solid 0.5px #707070ab;
+  border-radius: 20px;
+}
+.buy {
+  position: relative;
+  margin-top: 50px;
+
+  border-radius: 10px;
+  background-color: #10de9f;
+  color: #ffffff;
+  font-family: 'Gilroy' !important;
+  font-size: 20px;
+  font-weight: bold;
+  /* width: 250px; */
+  height: 49px;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 10% 90%;
+  /* grid-template-rows: 1fr 1fr; */
+  grid-template-areas:
+    'side head'
+    'side body';
+  width: 100%;
+  height: 190px;
+  color: #ffffff;
+  background-color: #141414;
+}
+
+.footerTop {
+  grid-area: head;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .getOurApp {
+  float: right;
+} */
+.footerSide {
+  grid-area: side;
+  display: flex;
+  /* margin: 10px; */
+  /* justify-content: center; */
+  justify-self: center;
+  align-self: center;
+  width: 31px;
+  height: 54.5px;
+  font-family: 'Pacifico';
+  font-size: 30px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.82;
+  letter-spacing: normal;
+  /* text-align: left; */
+  color: #10d6de;
+}
+
+.footerBody {
+  grid-area: body;
+  /* width: 820px;
+  height: 41px; */
+  font-family: 'Gilroy';
+  font-size: 12px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.7;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Meduim upwards Screens */
+@media screen and (min-width: 1024px) and (max-width: 1370) {
+  .spacer {
+    margin-left: 20px !important;
+  }
+  .landing {
+    width: 100%;
+    height: 50vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+}
+
+/* Small Screens */
+@media screen and (min-width: 300px) and (max-width: 868px) {
+  .logo {
+    display: block;
+  }
+  .products {
+    font-size: small;
+  }
+  .landing {
+    width: 100%;
+    height: 50vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+  }
+  .claims {
+    width: 100%;
+    height: 30vh;
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: bottom; */
+  }
+  .claimsBtn {
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .claimBtnA {
+    display: none;
+  }
+  .claimBtnB {
+    display: block;
+  }
+  .claimStats {
+    font-size: 45px;
+  }
+  .claimP {
+    margin-bottom: 15px;
+  }
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+
+    text-align: center;
+    color: #10d6de !important;
+  }
+
+  .Ai {
+    display: block;
+  }
+  .motto,
+  .productHeader,
+  .infoHeader {
+    font-size: 20px;
+    font-weight: bolder;
+
+    text-align: center;
+    color: #141414;
+  }
+
+  .productHeader {
+    margin-top: 30px;
+  }
+
+  .productList {
+    margin-top: 0;
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  .productMobile {
+    margin-top: 50px;
+    display: flex !important;
+    justify-content: space-evenly !important;
+  }
+  .saying,
+  .productText,
+  .infoText {
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    color: #141414;
+  }
+  .info {
+    text-align: center;
+  }
+  .info p {
+    font-size: 15px;
+  }
+
+  .infoBody {
+    text-align: center;
+  }
+
+  .infoImage {
+    width: 300px;
+  }
+  .infoTitle {
+    font-weight: bold;
+
+    text-align: center;
+    color: #141414;
+  }
+  .infoBtn {
+    margin-left: 0;
+  }
+  .productCard {
+    width: 65%;
+    height: 300px;
+    margin-bottom: 12px;
+    border: solid 0.5px #707070ab;
+    border-radius: 20px;
+  }
+
+  .products h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .insure h1 {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+  .insure h3 {
+    font-size: 1.3rem;
+  }
+
+  .insure h5 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+  }
+  .insure h4 {
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  .insureBtn {
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: #10de9f;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #ffffff;
+  }
+  .insureUpdateBtn,
+  .insureContactBtn {
+    margin-left: 0px;
+    border-radius: 10px;
+    background-color: #10de9f;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    color: #ffffff;
+  }
+  .insureImages {
+    margin-left: 50px;
+  }
+
+  .aboutUsBtn {
+    position: relative;
+    left: 28%;
+    border-radius: 10px;
+    background-color: #10de9f;
+    font-size: 18px;
+    font-weight: normal;
+
+    text-align: center;
+    color: #ffffff;
+  }
+  .profileRight {
+    margin-left: 0px;
+  }
+  .policies {
+    margin-top: 40px;
+  }
+
+  .spacer {
+    margin-top: 0;
+  }
+  .card {
+    display: none;
+  }
+  .table {
+    font-size: 1rem;
+  }
+  .mobileTable {
+    display: block;
+    font-size: 1rem;
+  }
+  .policiesControl {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cardPrice {
+    font-size: 20px;
+    margin-top: 30%;
+    color: #ffffff;
+  }
+
+  .flipCard {
+    width: 300px;
+    height: 250px;
+  }
+  /* .flipCard {
+    width: 300px;
+    height: 350px;
+    perspective: 1000px;
+    background-color: #ffffff;
+    border-radius: 30px;
+  } */
+  .flipCard p {
+    font-size: 10px;
+  }
+
+  .flipCard:focus .flipCardInner {
+    transform: rotateY(180deg);
+  }
+  .expiresOn {
+    font-weight: bolder;
+    font-size: 12px;
+    color: #ff8b8b;
+  }
+  .largeScreenCard {
+    display: none;
+  }
+  .mobileCard {
+    display: block;
+  }
+  .break {
+    display: none;
+  }
+
+  .inputTwo input {
+    width: 85%;
+    height: 49px;
+    border-radius: 10px;
+    border: solid 0.5px #141414;
+  }
+  .selectFieldGroup {
+    width: 85%;
+    height: 49px;
+    border-radius: 10px;
+    border: solid 0.5px #141414;
+  }
+  .signIn,
+  .signUp {
+    height: auto;
+  }
+
+  .fakeLabel {
+    display: block;
+  }
+
+  .signIn,
+  .signUp h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .signIn,
+  .signUp h2 {
+    font-size: 1.5rem;
+  }
+  .editDashboard h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .editDashboard {
+    font-size: 15px;
+    margin-bottom: 40px;
+  }
+  .editProfileBtn {
+    width: 270px;
+  }
+  .fakeLabelA {
+    margin-top: 10px;
+  }
+  .footer {
+    margin-top: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 100%;
+    grid-template-areas:
+      'head head'
+      'body body';
+  }
+
+  .footerSide {
+    display: none;
+  }
+  .footerBody {
+    margin: 10px 10px 0 10px;
+    font-size: 10px;
+    font-weight: normal;
+  }
+
+  .footer h6 {
+    font-size: 10px;
+  }
+  .getOurApp img {
+    margin-top: 13px;
+    width: 60px !important;
+  }
+}
